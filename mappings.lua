@@ -10,6 +10,26 @@ M.dap = {
     ["<leader>dr"] = {
       "<cmd> DapContinue <CR>",
       "Start or continue the debugger",
+    },
+    ["<leader>ds"] = {
+      "<cmd> DapStepOver <CR>",
+      "Step over",
+    },
+    ["<leader>di"] = {
+      "<cmd> DapStepInto <CR>",
+      "Step into",
+    },
+    ["<leader>do"] = {
+      "<cmd> DapStepOut <CR>",
+      "Step out",
+    },
+    ["<leader>dt"] = {
+      "<cmd> DapTerminate <CR>",
+      "Stop the debugger",
+    },
+    ["<leader>dx"] = {
+      "<cmd> lua require('dapui').close() <CR>",
+      "Close the DAP UI",
     }
   }
 }
